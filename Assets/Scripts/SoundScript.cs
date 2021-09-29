@@ -59,5 +59,9 @@ void Update()
         {
           musicSource.loop = false;
         }
+     if (Input.GetKey("escape"))
+        {
+          Application.Quit();
+        }
    }
 }
